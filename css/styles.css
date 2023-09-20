@@ -23,6 +23,10 @@ ol {
   list-style: none;
 }
 
+img {
+  display: block;
+}
+
 .container {
   /* width: 100%; */
   /* max-width: 1158px; */
@@ -83,10 +87,11 @@ ol {
 
 /* ================MAIN================= */
 /*MAIN-SECTION*/
+/* знайти спосіб центрувати заголовок-1 */
 .hero-container {
   padding-top: 188px;
   padding-bottom: 188px;
-  /* text-align: center; */
+  text-align: center;
 }
 
 .hero {
@@ -125,6 +130,25 @@ ol {
 
 /*SECTION 2 - hidden title*/
 /* visually hidden не пропускає автоперевірка  */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.pupose-section {
+}
+
+.purpose-container {
+  padding: 120px 156px;
+}
 
 .our-purpose-list {
 }
@@ -140,6 +164,7 @@ ol {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .purpose-text {
   font-size: 16px;
@@ -158,6 +183,7 @@ ol {
 
 .oteam {
   background-color: #f4f4fd;
+  padding: 120px 156px;
 }
 
 .oteam-main-title {
@@ -168,10 +194,15 @@ ol {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
+  margin-bottom: 72px;
 }
 
 .oteam-item {
   background-color: #ffffff;
+}
+
+.oteam-loved {
+  margin-bottom: 32px;
 }
 
 .our-team-title {
@@ -180,6 +211,7 @@ ol {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .our-team-text {
@@ -190,7 +222,9 @@ ol {
 }
 
 /* SECTION 4 */
-
+.oportfolio-section {
+  padding: 120px 156px;
+}
 .oportfolio-main-title {
   color: #2e2f42;
   font-size: 36px;
@@ -199,6 +233,12 @@ ol {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
+  margin-bottom: 72px;
+}
+
+.oportfolio-list {
+}
+.oportfolio-loved {
 }
 
 .oportfolio-title {
@@ -207,6 +247,8 @@ ol {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 
 .oportfolio-main-text {
@@ -214,12 +256,16 @@ ol {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 32px;
 }
 
 /* FOOTER SECTOIN */
 
 .foot-section {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 156px;
 }
 
 .foot-logo-link {
@@ -230,6 +276,7 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 18px;
 }
 
 .logo-lightcolor {
@@ -241,4 +288,5 @@ ol {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }

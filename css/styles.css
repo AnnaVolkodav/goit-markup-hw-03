@@ -188,18 +188,23 @@ img {
 }
 
 .list-purpose-container {
-  display: flex;
+  
 }
 .our-purpose-list {
   display: flex;
-  gap: 24px;
-  
+  flex-direction: row;
+  /* flex-wrap: nowrap;
+  align-content: flex-start;
+  justify-content: flex-start;
+  align-items: flex-start; */
 }
 .purpose-item {
   font-family: inherit;
   color: currentColor;
 
-  flex-basis: calc((100% - 72) / 4);
+  /* max-width: 264px;
+  gap: 24px; */
+  width: calc((100% - 72) / 4);
 }
 
 .purpose-title {

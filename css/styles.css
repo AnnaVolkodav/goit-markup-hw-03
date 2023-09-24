@@ -28,8 +28,9 @@ img {
 }
 
 .container {
-  /* width: 100%; */
-  /* max-width: 1158px; */
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 /* =================HEADER==================== */
@@ -270,6 +271,11 @@ img {
 .oportfolio-section {
   padding: 120px 156px;
 }
+
+.container-portfolio-list {
+  display: flex;
+  
+}
 .oportfolio-main-title {
   color: #2e2f42;
   font-size: 36px;
@@ -282,17 +288,26 @@ img {
 }
 
 .oportfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  flex-basis: calc((100% - 48px) / 3);
 }
 .oportfolio-loved {
 }
 
+.oportfolio-description {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border: 1px solid #E7E9FC;
+  border-top: 0;
+}
 .oportfolio-title {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 
@@ -301,7 +316,6 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 32px;
 }
 
 /* FOOTER SECTOIN */

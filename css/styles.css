@@ -118,9 +118,8 @@ img {
 /*MAIN-SECTION*/
 /* знайти спосіб центрувати заголовок-1: знайшла за допомогою марджин: 0 авто */
 .hero-container {
-  padding-top: 188px;
-  padding-bottom: 188px;
-  text-align: center;
+  /* display: flex;
+  text-align: center; */
 }
 
 .hero {
@@ -154,6 +153,7 @@ img {
   cursor: pointer;
   border: none;
   border-radius: 4px;
+  margin: 0 auto;
 }
 
 .hero-btn:hover,
@@ -180,11 +180,11 @@ img {
   overflow: hidden;
 }
 
-.pupose-section {
+.purpose-section {
+  padding: 120px 0;
 }
 
 .purpose-container {
-  padding: 120px 15px;
 }
 
 .list-purpose-container {
@@ -193,14 +193,15 @@ img {
 .our-purpose-list {
   display: flex;
   gap: 24px;
-  flex-basis: calc((100% - 72) / 4);
+  
 }
 .purpose-item {
   font-family: inherit;
   color: currentColor;
+
+  flex-basis: calc((100% - 72) / 4);
 }
-.strategy-item {
-}
+
 .purpose-title {
   color: #2e2f42;
   font-size: 20px;
@@ -209,17 +210,12 @@ img {
   letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
+
 .purpose-text {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-.punctuality-item {
-}
-.diligence-item {
-}
-.technologies-item {
 }
 
 /*SECTION 3 - OUR TEAM*/
